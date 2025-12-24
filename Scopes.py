@@ -98,3 +98,15 @@ print=10
 list=[1,2,3,4,5]
 len=10
 print(len(list))
+
+
+
+
+n=5
+sq=n*n
+m=str(n)
+n=str(sq)
+if m.endswith(n):
+    print("autographic")
+else:
+    print("not autographic")
