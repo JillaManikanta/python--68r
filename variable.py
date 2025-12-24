@@ -34,3 +34,15 @@ print(type(age))
 print(type(height))
 print(type(is_working))
 print(type(address))
+
+
+
+m="hello world. welcome to python. glad you came"
+sentences=m.split('.')
+print(sentences)
+list1=[]
+for i in sentences:
+    sen=i[0].upper()+i[1:]
+    list1.append(sentences)
+result = '. '.join(list1)
+print(result)
